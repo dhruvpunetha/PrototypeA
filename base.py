@@ -4,6 +4,7 @@ import filter_sobel
 import filter_cartoon_dilated
 import filter_cartoon
 import filter_threshold
+import filter_negative
 print("Hello Please choose a filter")
 ch=int(input())
 if(ch==1):
@@ -18,3 +19,5 @@ if(ch==5):
     filter_cartoon_dilated.cartooni()
 if(ch==6):    
     filter_threshold.filterheat()
+if(ch==7):    
+    filter_negative.negative()
