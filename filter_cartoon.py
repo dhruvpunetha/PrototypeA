@@ -5,7 +5,9 @@ import cv2  #open source software with pre built functons for image processing
 from collections import defaultdict #defalt dictionary is sub class of dictionary
 # we prefer default dict as it will not raise a key error
 
-def up_coun(C,hist):
+
+#updating value of centroid
+def up_coun(C,hist):   
     while True:
         groups=defaultdict(list)
 
